@@ -1,0 +1,16 @@
+@import './base/reset';
+@import './base/body';
+@import './utils/variables';
+@import './utils/visually-hiden';
+// index.html
+@import './components/header';
+@import './components/hero';
+@import './components/hero-btn';
+@import './components/modal-window';
+@import './components/experience';
+@import './components/we-do';
+@import './components/team';
+@import './components/clients';
+@import './components/footer';
+@import './components/portfolio-filters';
+@import './components/portfolio-cards';
