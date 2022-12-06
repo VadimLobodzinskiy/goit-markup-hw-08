@@ -3,7 +3,10 @@
 @import './utils/variables';
 @import './utils/visually-hiden';
 // index.html
+@import './components/section';
+@import './components/container';
 @import './components/header';
+@import './components/menu';
 @import './components/hero';
 @import './components/hero-btn';
 @import './components/modal-window';
