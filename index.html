@@ -72,13 +72,13 @@
       </section>
 
       <!-- 1.Показники досвіду -->
-      <section class="section">
-        <div class="features container">
+      <section class="features section">
+        <div class="container">
           <h2 class="visually__hidden">Показники досвіду</h2>
           <ul class="features__sections list">
             <li class="features__items">
               <div class="features__icons">
-                <svg class="features__icon">
+                <svg class="features__icon" width="70" height="70">
                   <use href="./images/icons.svg#antenna"></use>
                 </svg>
               </div>
@@ -89,7 +89,7 @@
             </li>
             <li class="features__items">
               <div class="features__icons">
-                <svg class="features__icon">
+                <svg class="features__icon" width="70" height="70">
                   <use href="./images/icons.svg#clock"></use>
                 </svg>
               </div>
@@ -100,7 +100,7 @@
             </li>
             <li class="features__items">
               <div class="features__icons">
-                <svg class="features__icon">
+                <svg class="features__icon" width="70" height="70">
                   <use href="./images/icons.svg#diagram"></use>
                 </svg>
               </div>
@@ -111,7 +111,7 @@
             </li>
             <li class="features__items">
               <div class="features__icons">
-                <svg class="features__icon">
+                <svg class="features__icon" width="70" height="70">
                   <use href="./images/icons.svg#astronaut"></use>
                 </svg>
               </div>
@@ -129,15 +129,30 @@
           <h2 class="works__title">Чим ми займаємося</h2>
           <ul class="works__features list">
             <li class="works__items">
-              <img src="./images/doing1.jpg" alt="desktop applications" width="370" />
+              <img
+                srcset="./images/works/works1@1x.jpg, ./images/works/works1@2x.jpg"
+                src="./images/works/works1.jpg"
+                alt="desktop applications"
+                width="370"
+              />
               <p class="works__overlay">Десктопні додатки</p>
             </li>
             <li class="works__items">
-              <img src="./images/doing2.jpg" alt="mobile applications" width="370" />
+              <img
+                srcset="./images/works/works2@1x.jpg, ./images/works/works2@2x.jpg"
+                src="./images/works/works2.jpg"
+                alt="mobile applications"
+                width="370"
+              />
               <p class="works__overlay">Мобільні додатки</p>
             </li>
             <li class="works__items">
-              <img src="./images/doing3.jpg" alt="design solutions" width="370" />
+              <img
+                srcset="./images/works/works3@1x.jpg, ./images/works/works3@2x.jpg"
+                src="./images/works/works3.jpg"
+                alt="design solutions"
+                width="370"
+              />
               <p class="works__overlay">Дизайнерські рішення</p>
             </li>
           </ul>
@@ -149,7 +164,21 @@
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__features list">
             <li class="team__item">
-              <img src="./images/team1.jpg" alt="Product Designer" width="270" />
+              <img
+                srcset="
+                  ./images/team/demianenko480@1x.jpg  450w,
+                  ./images/team/demianenko480@2x.jpg  900w,
+                  ./images/team/demianenko768@1x.jpg  354w,
+                  ./images/team/demianenko768@2x.jpg  708w,
+                  ./images/team/demianenko1200@1x.jpg 270w,
+                  ./images/team/demianenko1200@2x.jpg 540w
+                "
+                src="./images/team/demjanenko480@1x.jpg"
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                min-width="270"
+                alt="Product Designer"
+              />
+
               <div class="team__content">
                 <h3 class="team__name">Ігор Дем'яненко</h3>
                 <p class="team__position">Product Designer</p>
@@ -211,7 +240,20 @@
               </div>
             </li>
             <li class="team__item">
-              <img src="./images/team2.jpg" alt="Frontend Developer" width="270" />
+              <img
+                srcset="
+                  ./images/team/repina480@1x.jpg  450w,
+                  ./images/team/repina480@2x.jpg  900w,
+                  ./images/team/repina768@1x.jpg  354w,
+                  ./images/team/repina768@2x.jpg  708w,
+                  ./images/team/repina1200@1x.jpg 270w,
+                  ./images/team/repina1200@2x.jpg 540w
+                "
+                src="./images/team/repina1480@1x.jpg"
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                min-width="270"
+                alt="Frontend Developer"
+              />
               <div class="team__content">
                 <h3 class="team__name">Ольга Рєпіна</h3>
                 <p class="team__position">Frontend Developer</p>
@@ -273,7 +315,20 @@
               </div>
             </li>
             <li class="team__item">
-              <img src="./images/team3.jpg" alt="Marketing" width="270" />
+              <img
+                srcset="
+                  ./images/team/tarasov480@1x.jpg  450w,
+                  ./images/team/tarasov480@2x.jpg  900w,
+                  ./images/team/tarasov768@1x.jpg  354w,
+                  ./images/team/tarasov768@2x.jpg  708w,
+                  ./images/team/tarasov1200@1x.jpg 270w,
+                  ./images/team/tarasov1200@2x.jpg 540w
+                "
+                src="./images/team/tarasov480@1x.jpg"
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                min-width="270"
+                alt="Marketing"
+              />
               <div class="team__content">
                 <h3 class="team__name">Микола Тарасов</h3>
                 <p class="team__position">Marketing</p>
@@ -335,7 +390,20 @@
               </div>
             </li>
             <li class="team__item">
-              <img src="./images/team4.jpg" alt="UI Designer" width="270" />
+              <img
+                srcset="
+                  ./images/team/yermakov480@1x.jpg  450w,
+                  ./images/team/yermakov480@2x.jpg  900w,
+                  ./images/team/yermakov768@1x.jpg  354w,
+                  ./images/team/yermakov768@2x.jpg  708w,
+                  ./images/team/yermakov1200@1x.jpg 270w,
+                  ./images/team/yermakov1200@2x.jpg 540w
+                "
+                src="./images/team/yermakov480@1x.jpg"
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                min-width="270"
+                alt="UI Designer"
+              />
               <div class="team__content">
                 <h3 class="team__name">Михайло Єрмаков</h3>
                 <p class="team__position">UI Designer</p>
@@ -404,7 +472,7 @@
         <div class="container">
           <h2 class="clients__title">Постійні клієнти</h2>
           <ul class="clients__list list">
-            <li>
+            <li class="clients__item">
               <a
                 class="clients__link"
                 href="https://www.google.com/"
@@ -417,7 +485,7 @@
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="clients__item">
               <a
                 class="clients__link"
                 href="https://www.google.com/"
@@ -430,7 +498,7 @@
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="clients__item">
               <a
                 class="clients__link"
                 href="https://www.google.com/"
@@ -443,7 +511,7 @@
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="clients__item">
               <a
                 class="clients__link"
                 href="https://www.google.com/"
@@ -456,7 +524,7 @@
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="clients__item">
               <a
                 class="clients__link"
                 href="https://www.google.com/"
@@ -469,7 +537,7 @@
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="clients__item">
               <a
                 class="clients__link"
                 href="https://www.google.com/"
@@ -544,7 +612,7 @@
     <!-- ======= footer ======== -->
     <footer class="footer">
       <div class="footer__container container">
-        <div>
+        <div class="footer__wrapper">
           <a href="./index.html" class="footer__logo">
             <span class="logo--inversion">Web</span>Studio</a
           >
@@ -629,34 +697,35 @@
           </ul>
         </div>
         <!-- Підпишись на розсилку (форма) -->
-        <form action="email" class="footer__form">
-          <p class="social__join">Підпишіться на розсилку</p>
-
-          <div class="footer__form-field">
-            <label>
-              <input class="form__input" type="email" placeholder="E-mail" required />
-            </label>
-
-            <button class="form__btn" type="submit">
+        <div class="subscribe">
+          <p class="subscribe__title">Підпишіться на розсилку</p>
+          <form class="subscribe__form" name="subscribe-form" autocomplete="off" novalidate>
+            <input
+              class="subscribe__input"
+              type="email"
+              name="subscribe-mail"
+              placeholder="E-mail"
+              required
+            />
+            <button class="subscribe-btn" type="submit">
               Підписатися
-              <svg class="icon-send" width="24" height="24">
+              <svg class="subscribe__icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- =========Модульне вікно========= -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <!-- ================================ -->
         <button class="modal__btn" type="button" data-modal-close>
           <svg width="18" height="18">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <!-- =================================== -->
+
         <p class="modal__title">Залиште свої дані, ми вам передзвонимо</p>
 
         <form class="modal-form" name="modal-form">
