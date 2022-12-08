@@ -1,16 +1,27 @@
 .filter {
-  display: flex;
-  justify-content: center;
+display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   margin-bottom: 50px;
-}
+  gap: 8px;
+  row-gap: 15px;
 
-.filter__item:not(:last-child) {
-  margin-right: 8px;
+  @media screen and (min-width: 768px) {
+      margin-bottom: 30px;
+      flex-wrap: nowrap;
+      justify-content: center;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 50px;
+      flex-wrap: nowrap;
+      justify-content: center;
+    }
 }
 
 .filter__btn {
   background-color: var(--background-team);
-  padding: 6px 22px;
+  padding: 6px 25px;
   color: var(--primary-text-color);
   font-family: inherit;
   font-weight: 500;
@@ -21,7 +32,7 @@
   border-radius: 4px;
   cursor: pointer;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,

@@ -70,12 +70,18 @@
           <h1 class="visually__hidden">Portfolio</h1>
           <ul class="filter list">
             <!-- список кнопок -->
-            <li class="filter__item"><button class="filter__btn" type="button">Усі</button></li>
+            <li class="filter__item">
+              <button class="filter__btn" type="button">Усі</button>
+            </li>
             <li class="filter__item">
               <button class="filter__btn" type="button">Веб-сайти</button>
             </li>
-            <li class="filter__item"><button class="filter__btn" type="button">Додатки</button></li>
-            <li class="filter__item"><button class="filter__btn" type="button">Дизайн</button></li>
+            <li class="filter__item">
+              <button class="filter__btn" type="button">Додатки</button>
+            </li>
+            <li class="filter__item">
+              <button class="filter__btn" type="button">Дизайн</button>
+            </li>
             <li class="filter__item">
               <button class="filter__btn" type="button">Маркетинг</button>
             </li>
@@ -86,7 +92,20 @@
             <li class="projects__title">
               <a href="" class="projects__link link">
                 <div class="projects__thumb">
-                  <img src="./images/portfolio/one-our-team.jpg" alt="ноутбук с фото" width="370" />
+                  <img
+                    srcset="
+                      ./images/projects-img/technokryak480.jpg     450w,
+                      ./images/projects-img/technokryak480@2x.jpg  900w,
+                      ./images/projects-img/technokryak768.jpg     354w,
+                      ./images/projects-img/technokryak768@2x.jpg  708w,
+                      ./images/projects-img/technokryak1200.jpg    370w,
+                      ./images/projects-img/technokryak1200@2x.jpg 740w
+                    "
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                    src="./images/projects-img/technokryak480.jpg"
+                    alt=""
+                  />
+
                   <div class="portfolio__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -106,9 +125,17 @@
               <a href="" class="projects__link link">
                 <div class="projects__thumb">
                   <img
-                    src="./images/portfolio/two-poster.jpg"
-                    alt="баскетбольний постер"
-                    width="370"
+                    srcset="
+                      ./images/projects-img/poster480.jpg     450w,
+                      ./images/projects-img/poster480@2x.jpg  900w,
+                      ./images/projects-img/poster768.jpg     354w,
+                      ./images/projects-img/poster768@2x.jpg  708w,
+                      ./images/projects-img/poster1200.jpg    370w,
+                      ./images/projects-img/poster1200@2x.jpg 740w
+                    "
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                    src="./images/projects-img/poster480.jpg"
+                    alt=""
                   />
                   <div class="portfolio__overlay">
                     <p>
@@ -119,7 +146,7 @@
                   </div>
                 </div>
                 <div class="card-set">
-                  <h2 class="card-set__items">остер New Orlean vs Golden Star</h2>
+                  <h2 class="card-set__items">Постер New Orlean vs Golden Star</h2>
                   <p class="card-set__list">Дизайн</p>
                 </div>
               </a>
@@ -129,9 +156,17 @@
               <a href="" class="projects__link link">
                 <div class="projects__thumb">
                   <img
-                    src="./images/portfolio/three-restaurant.jpg"
-                    alt="ресторан морскої їжі"
-                    width="370"
+                    srcset="
+                      ./images/projects-img/restaurant480.jpg     450w,
+                      ./images/projects-img/restaurant480@2x.jpg  900w,
+                      ./images/projects-img/restaurant768.jpg     354w,
+                      ./images/projects-img/restaurant768@2x.jpg  708w,
+                      ./images/projects-img/restaurant1200.jpg    370w,
+                      ./images/projects-img/restaurant1200@2x.jpg 740w
+                    "
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                    src="./images/projects-img/restaurant480.jpg"
+                    alt=""
                   />
                   <div class="portfolio__overlay">
                     <p>
@@ -151,7 +186,19 @@
             <li class="projects__title">
               <a href="" class="projects__link link">
                 <div class="projects__thumb">
-                  <img src="./images/portfolio/four-headphone.jpg" alt="навушники" width="370" />
+                  <img
+                    srcset="
+                      ./images/projects-img/prime480.jpg     450w,
+                      ./images/projects-img/prime480@2x.jpg  900w,
+                      ./images/projects-img/prime768.jpg     354w,
+                      ./images/projects-img/prime768@2x.jpg  708w,
+                      ./images/projects-img/prime1200.jpg    370w,
+                      ./images/projects-img/prime1200@2x.jpg 740w
+                    "
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                    src="./images/projects-img/prime480.jpg"
+                    alt=""
+                  />
                   <div class="portfolio__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -170,7 +217,19 @@
             <li class="projects__title">
               <a href="" class="projects__link link">
                 <div class="projects__thumb">
-                  <img src="./images/portfolio/five-boxes.jpg" alt="дві коробки" width="370" />
+                  <img
+                    srcset="
+                      ./images/projects-img/boxes480.jpg     450w,
+                      ./images/projects-img/boxes480@2x.jpg  900w,
+                      ./images/projects-img/boxes768.jpg     354w,
+                      ./images/projects-img/boxes768@2x.jpg  708w,
+                      ./images/projects-img/boxes1200.jpg    370w,
+                      ./images/projects-img/boxes1200@2x.jpg 740w
+                    "
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                    src="./images/projects-img/boxes480.jpg"
+                    alt=""
+                  />
                   <div class="portfolio__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -189,7 +248,19 @@
             <li class="projects__title">
               <a href="" class="projects__link link">
                 <div class="projects__thumb">
-                  <img src="./images/portfolio/six-monitor.jpg" alt="монітор" width="370" />
+                  <img
+                    srcset="
+                      ./images/projects-imginspirationk480.jpg     450w,
+                      ./images/projects-img/inspiration480@2x.jpg  900w,
+                      ./images/projects-img/inspiration768.jpg     354w,
+                      ./images/projects-img/inspiration768@2x.jpg  708w,
+                      ./images/projects-img/inspiration1200.jpg    370w,
+                      ./images/projects-img/inspiration1200@2x.jpg 740w
+                    "
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                    src="./images/projects-img/inspiration480.jpg"
+                    alt=""
+                  />
                   <div class="portfolio__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -208,7 +279,19 @@
             <li class="projects__title">
               <a href="" class="projects__link link">
                 <div class="projects__thumb">
-                  <img src="./images/portfolio/seven-magazine.jpg" alt="журнал" width="370" />
+                  <img
+                    srcset="
+                      ./images/projects-img/limited480.jpg     450w,
+                      ./images/projects-img/limited480@2x.jpg  900w,
+                      ./images/projects-img/limited768.jpg     354w,
+                      ./images/projects-img/limited768@2x.jpg  708w,
+                      ./images/projects-img/limited1200.jpg    370w,
+                      ./images/projects-img/limited1200@2x.jpg 740w
+                    "
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                    src="./images/projects-img/limited480.jpg"
+                    alt=""
+                  />
                   <div class="portfolio__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -228,9 +311,17 @@
               <a href="" class="projects__link link">
                 <div class="projects__thumb">
                   <img
-                    src="./images/portfolio/eight-lab-el-tag.jpg"
-                    alt="лабораторія тег"
-                    width="370"
+                    srcset="
+                      ./images/projects-img/lab480.jpg     450w,
+                      ./images/projects-img/lab480@2x.jpg  900w,
+                      ./images/projects-img/lab768.jpg     354w,
+                      ./images/projects-img/lab768@2x.jpg  708w,
+                      ./images/projects-img/lab1200.jpg    370w,
+                      ./images/projects-img/lab1200@2x.jpg 740w
+                    "
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                    src="./images/projects-img/lab480.jpg"
+                    alt=""
                   />
                   <div class="portfolio__overlay">
                     <p>
@@ -250,7 +341,19 @@
             <li class="projects__title">
               <a href="" class="projects__link link">
                 <div class="projects__thumb">
-                  <img src="./images/portfolio/nine-noutbook.jpg" alt="ноутбук" width="370" />
+                  <img
+                    srcset="
+                      ./images/projects-img/growing480.jpg     450w,
+                      ./images/projects-img/growing480@2x.jpg  900w,
+                      ./images/projects-img/growing768.jpg     354w,
+                      ./images/projects-img/growing768@2x.jpg  708w,
+                      ./images/projects-img/growing1200.jpg    370w,
+                      ./images/projects-img/growing1200@2x.jpg 740w
+                    "
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                    src="./images/projects-img/growing480.jpg"
+                    alt=""
+                  />
                   <div class="portfolio__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
